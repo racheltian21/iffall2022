@@ -1,0 +1,16 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+   
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.section-header {
+    font-size: 25px;
+    font-weight: 700;
+}
