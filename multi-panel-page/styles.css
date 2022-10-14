@@ -1,0 +1,123 @@
+html {
+    font-family: "Archivo Narrow", sans-serif;
+}
+
+header {
+    text-align: center;
+    background-image: url(venice.jpeg);
+    background-position: center -200px;
+    background-size: cover;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 80px; 
+    margin-top: 152px; 
+    margin-bottom: 0px; 
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0px; 
+    margin-bottom: 190px;
+    line-height: 30px;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0px;
+    padding-right: 25px;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
+
+}
+
+.content {
+    text-align: center;
+    width: 960px;
+    margin: auto;
+}
+
+#section1 {
+    background-color: azure;
+    color: black;
+    height: 650px;
+    padding: 20px;
+}
+
+.venice-boats {
+    float: right;
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    margin: 0 0 40px 40px;
+}
+
+.venicegrid {
+    object-fit: cover;
+    width: 200px;
+    height: 150px;
+    margin: 0;
+    margin-right: 15px;
+}
+
+#section2 {
+    background-color: bisque;
+    color: black;
+    padding: 20px;
+
+}
+
+
+ul {
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-bottom: 25px;
+    width: 50%;
+    display: flex;
+    padding: 0;
+}
+
+.textgrid {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+#ending {
+    background-color: azure;
+    padding: 38px;
+    height: 325px;
+
+}
+
+#ending p {
+    text-align: center;
+    font-size: 25px;
+    line-height: 35px;
+    width: 700px;
+    margin-left: 100px;
+}
+
+#footer-text {
+    background-color: bisque;
+    overflow: auto;
+    height: 100px;
+}
+
