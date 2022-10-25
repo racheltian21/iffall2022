@@ -194,8 +194,16 @@ li{
     color: bisque;
 }
 
+#end {
+    text-align: center;
+    color: bisque;
+
+}
+
 @media (min-width: 850px) {
     
+
+
     .introduction-element {
         display: block;
     }
@@ -255,25 +263,38 @@ li{
 
 @media (max-width: 849px) {
     
-   
+   h1 {
+    font-size: 50px;
+    width: fit-content;
+   }
+
+   h2 {
+    font-size: 20px;
+    width: fit-content;
+   }
     .introduction-element {
         display: block;
     }
 
     .bananabreadimage {
         margin: left;
+        margin-top: -150px;
+        margin-bottom: 10px;
         padding: 20px 0px;
+        
     }
+
    
     .descriptiongrid {
        flex-wrap: wrap;
         display: flex;
-        width: 40%;
+        width: 90%;
         
         font-size: 14px;
-        padding-top: 3%;
+        padding-top: 60%;
         padding-bottom: 1%;
-        margin-left: 40px;
+        margin-left: 20px;
+        margin-bottom: 20px;
        
     }
 
