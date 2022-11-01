@@ -1,0 +1,275 @@
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 175px;
+    max-height: 150px;
+    margin: auto;
+}
+
+@-webkit-keyframes spark {
+    0% {
+        opacity: .45;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes spark {
+    0% {
+        opacity: .45;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+#btn_cocacola:hover img {
+    opacity: 1;
+    -webkit-animation: spark 1.9s;
+    animation: spark 1.3s;
+}
+
+#btn_ibm:hover img {
+    -webkit-filter: saturate(11%);
+    filter: saturate(11%);
+}
+
+@keyframes gleam {
+    100% {
+        -webkit-mask-position: left
+    }
+}
+
+#btn_apple:hover img {
+    color: grey;
+    display: inline-block;
+    -webkit-mask: linear-gradient(-50deg, #000 28%, #0006, #000 58%) right/290% 100%;
+    animation: gleam 2.5s infinite;
+}
+
+#btn_ideo:hover img {
+    border: solid black;
+    transform: scale(1.3);
+}
+
+#btn_npr img {
+    margin-left: 38px;
+    margin-top: 50px;
+}
+
+#btn_npr figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+#btn_npr figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+#btn_lyft:hover img {
+    border-radius: 50%;
+    box-shadow: 0 0 30px #ff10db;
+}
+
+@-webkit-keyframes grow {
+    0% {
+        -webkit-transform: scale(0.13);
+        transform: scale(0.05);
+        -moz-transform: scale(0.22);
+        -o-transform: scale(0.06);
+        -ms-transform: scale(0.18);
+    }
+}
+
+#btn_samsung:hover img {
+    -webkit-animation: grow 2.5s 1;
+}
+
+
+#btn_tesla {
+    transition: transform .8s ease-in-out;
+}
+
+#btn_tesla:hover {
+    transform: rotate(360deg);
+}
+
+#btn_fitbit:hover img {
+    filter: invert(50%);
+    -webkit-filter: invert(50%);
+}
+
+#btn_oldnavy:hover img {
+    transform: scale(1.5);
+    border-radius: 300%;
+}
+
+#btn_instagram figure:hover img {
+    filter: hue-rotate(200deg);
+    -webkit-filter: hue-rotate(200deg);
+}
+
+#btn_facebook figure:hover img {
+    filter: invert(51%) sepia(88%) saturate(4409%) hue-rotate(182deg) brightness(104%) contrast(100%);
+}
+
+#btn_newyorker img{
+    transition: transform .8s ease-in-out;
+}
+
+#btn_newyorker img:hover{
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    transform: scale(1.2);
+    transform: rotate(-360deg);
+}
+
+#btn_hulkhogan {
+    mix-blend-mode: multiply;
+}
+
+#btn_hulkhogan figure img {
+    -webkit-filter: sepia(99%);
+    filter: sepia(99%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#btn_hulkhogan figure:hover img {
+    -webkit-filter: sepia(0);
+    filter: sepia(0);
+}
+
+#btn_thetonightshow img {
+    mix-blend-mode: multiply;
+}
+
+#btn_thetonightshow figure:hover img {
+    transform: scale(1.3);
+    -webkit-filter: drop-shadow(6px 6px 6px #666666);
+    filter: drop-shadow(6px 6px 6px #666666);
+}
+
+@-webkit-keyframes x {
+    15% {
+        -webkit-transform: skew(-14deg);
+        transform: skew(-14deg);
+    }
+
+    30% {
+        -webkit-transform: skew(9deg);
+        transform: skew(9deg);
+    }
+
+    50% {
+        -webkit-transform: skew(-4deg);
+        transform: skew(-4deg);
+    }
+
+    70% {
+        -webkit-transform: skew(5deg);
+        transform: skew(5deg);
+    }
+
+    85% {
+        -webkit-transform: skew(-1.5deg);
+        transform: skew(-1.5deg);
+    }
+
+    100% {
+        -webkit-transform: skew(0);
+        transform: skew(0);
+    }
+}
+
+@keyframes x {
+    15% {
+        -webkit-transform: skew(-14deg);
+        transform: skew(-14deg);
+    }
+
+    30% {
+        -webkit-transform: skew(9deg);
+        transform: skew(9deg);
+    }
+
+    50% {
+        -webkit-transform: skew(-4deg);
+        transform: skew(-4deg);
+    }
+
+    70% {
+        -webkit-transform: skew(5deg);
+        transform: skew(5deg);
+    }
+
+    85% {
+        -webkit-transform: skew(-1.5deg);
+        transform: skew(-1.5deg);
+    }
+
+    100% {
+        -webkit-transform: skew(0);
+        transform: skew(0);
+    }
+}
+
+#btn_cartoonnetwork:hover {
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-name: x;
+    animation-name: x;
+}
+
+#btn_nike:hover img {
+    transform: rotateY(180deg);
+}
+
+#btn_harleydavidson img {
+    mix-blend-mode: multiply;
+}
+
+
+@keyframes vibrate {
+    70% {
+        -webkit-transform: translateX(4px) rotate(5deg);
+        transform: translateX(5px) rotate(3deg);
+    }
+
+}
+
+#btn_harleydavidson:hover {
+    animation-name: vibrate;
+    -webkit-animation-duration: 0.20s;
+    animation-duration: 0.2s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+#explodingkittensdiv:hover {
+    background-image: url("http://www.clker.com/cliparts/e/b/c/6/1206570436270960825johnny_automatic_battle.svg.hi.png");
+    background-size: auto 300px;
+}
+
+#explodingkittensdiv:hover img {
+    transform: scale(0.7);
+}
+
+#btn_michaelkors:hover {
+    transform: scale(1.5);
+}
